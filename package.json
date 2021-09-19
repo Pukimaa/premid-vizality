@@ -1,0 +1,11 @@
+{
+  "name": "premid-vizality",
+  "version": "1.0.0",
+  "description": "Connects to your browser's PreMiD extension without the need of the application.",
+  "main": "index.js",
+  "author": "Pukima",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.2.0"
+  }
+}

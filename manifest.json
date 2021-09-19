@@ -1,0 +1,10 @@
+{
+  "name": "PreMiD",
+  "description": "Connects to your browser's PreMiD extension without the need of the application.",
+  "author": {
+     "name": "Pukima",
+     "id": "751092600890458203"
+  },
+  "version": "1.0.0",
+  "license": "MIT"
+}
