@@ -1,6 +1,6 @@
 {
   "name": "premid-vizality",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Connects to your browser's PreMiD extension without the need of the application.",
   "main": "index.js",
   "author": "Pukima",
