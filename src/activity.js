@@ -19,7 +19,7 @@ let previous_log;
 const error = (s) => console.warn(`%c[PreMiD]%c ${s}`, log_prefix, 'font-weight: bold');
 const success = (s) => console.log(`%c[PreMiD]%c ${s}`, log_prefix, 'font-weight: bold');
 
-const { SET_ACTIVITY } = getModule(['INVITE_BROWSER'], false);
+const { SET_ACTIVITY } = getModule(['SET_ACTIVITY'], false);
 
 const setActivity = async (rpc) => {
     const presence = rpc.presenceData;
@@ -63,6 +63,7 @@ const setActivity = async (rpc) => {
     else activity.assets.large_text = `PreMiD Vizality ${version} • Ext ${activity.assets.large_text.split('Ext ')[1]}`
 
     const handling = {
+        isSocketConnected: () => true,
         socket: {
             id: 100,
             application: {
